@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    width: 1600px;
+    height: 670px;
+    background: #311d5e url(/IMG/hedear.png);
+    background-blend-mode: overlay;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 128px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.clik {
+    text-decoration: none;
+    color:#ffffff;
+    padding-left: 20px;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.link:hover {
+    color: #00e0d0;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 228px;
+}
+
+.line_header {
+    background-color: #00e0d0;
+    margin-top: 20px;
+    width: 50px;
+    height: 1px;
+    border: none;
+}
+
+.heder_paragraph {
+    width: 771px;
+    height: 62px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 415px;
+    margin-top: 30px;
+}
+
+.header_button {
+    width: 120px;
+    height: 40px;
+    color: #00e0d0;
+    font-size: 16px;
+    border: 1px solid #00e0d0;
+    background-color: transparent;
+    margin-left: 740px;
+    margin-top: 50px;
+    transition: 1.5s;
+}
+
+.header_button:hover {
+    background-color: #00e0d0;
+    color: #ffffff;
+    transition: 1.5s;
+    border-radius: 12px;
+}
